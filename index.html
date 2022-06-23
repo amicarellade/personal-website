@@ -6,16 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dante Amicarella</title>
         <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/ass.css" 
-        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-        crossorigin="anonymous"/>
+        <script src="https://kit.fontawesome.com/4c7b9ce532.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap" rel="stylesheet"/>
     </head>
     <body>
         <!-- Navbar -->
         <nav class="navbar">
             <div class="navbar__container">
-                <a href="/" id="navbar__logo">Dante Amicarella</a>
+                <a href="/" id="navbar__logo"><img src="/personal-website/images/datamicarella.png" alt="logo" width="75px", height="75px">Dante Amicarella</a>
                 <div class="navbar__toggle" id="mobile-menu">
                     <span class="bar"></span>
                     <span class="bar"></span>
@@ -26,16 +24,17 @@
                         <a href="/" class="navbar__links"> Home </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="/about.html" class="navbar__links"> About Me </a>
+                        <a href="/about.html" class="navbar__links"> About </a>
                     </li>
                     <li class="navbar__item">
                         <a href="/" class="navbar__links"> Projects </a>
                     </li>
                     <li class="navbar__btn">
-                        <a href="/" class="buttton"> Contact Me </a>
+                        <a href="/" class="button"> Contact Me </a>
                     </li>
                 </ul>
             </div>
+            <script src="actions.js"></script>
         </nav>
         <!-- Hero -->
         <div class = "main">
@@ -48,7 +47,7 @@
                     </a></button>
                 </div>
                 <div class="main__img--containter">
-                    <img src="images/mailpic.svg" alt='pic' id="main__img">
+                    <img src="/personal-website/images/mailpic.svg" alt='pic' id="main__img">
                 </div>
             </div>
         </div>
@@ -70,6 +69,45 @@
                 </div>
             </div>
         </div>
-        <script src = "actions.js"></script>
+
+        <!-- Footer -->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__link--items">
+                        <h2> Social Media </h2>
+                        <a href="https://twitter.com/datamicarella" target="_blank"> Twitter </a>
+                        <a href="https://www.instagram.com/danteamicarella/" target="_blank">Instagram</a>
+                        <a href="https://www.linkedin.com/in/dante-amicarella/" target="_blank">LinkedIn</a>
+                        <a href="https://www.facebook.com/dante.amicarella" target="_blank">Facebook</a>
+                        <a href="https://github.com/amicarellade" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <div class="footer__logo">
+                        <a href="/" id="footer__logo"><img src="/personal-website/images/datamicarella.png" alt="logo" width="75px", height="75px">Dante Amicarella</a>
+                    </div>
+                    <div class="social__icons">
+                        <a href="https://twitter.com/datamicarella" class="social__icon--link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.instagram.com/danteamicarella/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/dante-amicarella/" class="social__icon--link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.facebook.com/dante.amicarella" class="social__icon--link" target="_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://github.com/amicarellade" class="social__icon--link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
