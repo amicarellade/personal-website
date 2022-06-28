@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: sans-serif;
 }
 
 .navbar {
@@ -393,6 +393,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    background-color: #141414;
 
 }
 
@@ -453,7 +454,154 @@
     cursor: pointer;
 }
 
+ 
+
 /* Service About */
+
+/* Now */
+.services__container__now {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #141414;
+
+}
+
+.services__card__now {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/fastandslow.jpeg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.servicesnow {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.servicesnow h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(
+        to right, 
+        #ff8177 0%, 
+        #ff867a 0%, 
+        #ff8c7f 21%,
+        #f99185 52%, 
+        #cf556c 78%, 
+        #b12a5b 100%,
+    );
+
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services__card__now:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+/* 2022 */
+
+.services__container__2022 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #141414;
+
+}
+
+.services2022 {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.services2022 h1 {
+    background-color: #ff8177;
+    background-image: linear-gradient(
+        to right, 
+        #ff8177 0%, 
+        #ff867a 0%, 
+        #ff8c7f 21%,
+        #f99185 52%, 
+        #cf556c 78%, 
+        #b12a5b 100%,
+    );
+
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.services__card__2022 {
+    margin: 1rem;
+    height: 525px;
+    width: 400px;
+    border-radius: 4px;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/blink.jpeg');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.services__card__2022:nth-child(2) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/outliers.jpeg');
+}
+
+
+.services__card__2022:nth-child(3) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/xGphilosophy.jpeg');
+}
+
+.services__card__2022:hover {
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+
+/* 2021 */
 .services__card__about {
     margin: 1rem;
     height: 525px;
@@ -495,6 +643,77 @@
         rgba(17, 17, 17, .6) 100%
         ), 
         url('/personal-website/images/alchemist.jpeg');
+}
+.services__card__about:nth-child(5) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/lying.jpeg');
+}
+
+.services__card__about:nth-child(6) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/kiterunner.jpeg');
+}
+
+.services__card__about:nth-child(7) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/subtleart.jpeg');
+}
+
+.services__card__about:nth-child(8) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/atomic.jpeg');
+}
+
+.services__card__about:nth-child(9) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/strength.jpg');
+}
+
+.services__card__about:nth-child(10) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/catalyst.jpeg');
+}
+
+.services__card__about:nth-child(11) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/makeyourbed.jpg');
+}
+
+.services__card__about:nth-child(12) {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0) 0%, 
+        rgba(17, 17, 17, .6) 100%
+        ), 
+        url('/personal-website/images/davidandgoliath.jpg');
 }
 
 .services__card__about:hover {
