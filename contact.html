@@ -6,6 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Dante Amicarella</title>
         <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $(".contact__button").click(function() {
+                    $(".input, .area").val("");
+                });
+            });
+        </script>
         <script src="https://kit.fontawesome.com/4c7b9ce532.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap" rel="stylesheet"/>
     </head>
@@ -30,19 +38,35 @@
                         <a href="/personal-website/projects.html" class="navbar__links"> Projects </a>
                     </li>
                     <li class="navbar__item">
-                        <a href="/personal-website/books.html" class="navbar__links"> About Me </a>
+                        <a href="/personal-website/books.html" class="navbar__links"> About </a>
                     </li>
                     <li class="navbar__btn">
-                        <a href = "mailto: dante.amicarella@gmail.com" target="_blank" class="button">Contact Me</a>
+                        <a href="/personal-website/contact.html" class="button"> Contact Me </a>
                     </li>
                 </ul>
             </div>
             <script src="actions.js"></script>
         </nav>
+        Contact 
+        <div class="contact">
+            <p>Contact Me</p>
+            <div class="login">
+                <input type="text" class="input" placeholder="Your Name">
+                <input type="text" class="input" placeholder="Your Email">
+            </div>
+            <div class="subject">
+                <input type="text" class="input" placeholder="Subject">
+            </div>
+            <div class="msg">
+                <textarea class="area"  placeholder="Write a Message"></textarea>
+            </div>
+            <a href = "mailto: dante.amicarella@gmail.com">
+            <div class="contact__button">Send Message</div></a>
 
+        </div>
         <!-- Footer -->
         <div class="footer__container">
-            <div class="social__media__books">
+            <div class="social__media">
                 <div class="social__media--wrap">
                     <div class="footer__logo">
                         <a href="/" id="footer__logo"><img src="/personal-website/images/datamicarella.png" alt="logo" width="75px", height="75px">Dante Amicarella</a>

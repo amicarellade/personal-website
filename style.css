@@ -206,7 +206,7 @@
 
 .main__container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2.5fr;
     align-items:  center;
     justify-self: center;
     margin: 0 auto;
@@ -291,13 +291,12 @@
 }
 
 .main__img--container {
-    text-align: center;
-    align-items: center;
+    object-fit: contain;
 }
 
-.main__img {
-    height: 60%;
-    width: 60%;
+#main__img {
+    height: 150%;
+    width: 110%;
     text-align: center;
 }
 
@@ -822,6 +821,14 @@
     width: 100%;
 }
 
+/* Footer for books */
+
+.social__media__books {
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 1500px;
+}
+
 .social__media--wrap {
     display: flex;
     justify-content: space-between;
@@ -919,11 +926,76 @@
     align-items: center;
 }
 
-.twitter-timeline {
+blockquote.twitter-timeline {
     align-items: center;
     justify-content: center;
     width: fit-content;
     display: flex;
 }
 
+.contact {
+    background: #141414;
+    width: 800px;
+    height: 600px;
+    margin: 50px auto;
+    box-sizing: border-box;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(72, 98, 85, .6);
+}
 
+.contact p {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.input, .msg .area {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    border: 2px solid #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+    transition: all 0.5s ease;
+}
+ 
+.login .input{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+}
+
+.login .input:last-child{
+    margin-right: 0;
+}
+
+.msg .area{
+    height: 200px;
+}
+
+.contact__button {
+    width: 250px;
+    background-color: #ff8177;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #141414;
+    text-transform: uppercase;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.input:focus,
+.msg .area:focus{
+    border: 2px solid #ff8177;
+}
+
+::-webkit-input-placeholder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
